@@ -77,6 +77,7 @@ class ListaEncadeada:
 
                 q.prox = p.prox
                 self._tamanho -= 1
+                self._soma -= p.saldo
 
     def vazio(self):
         return self._tamanho == 0
